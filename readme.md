@@ -1,91 +1,49 @@
 # Embedded Systems
 
-> A research-oriented repository focusing on **Embedded Systems**, **Edge AI**, **Internet of Things (IoT)**, and **Real-Time Intelligent Devices**.
+> Research notes and resources on **Embedded Systems**, **Edge AI**, **Internet of Things (IoT)**, and **Real-Time Intelligent Systems**.
 
 ---
 
 ## Overview
 
-This repository contains notes, tutorials, implementation examples, and research resources related to modern embedded systems and intelligent edge computing.
+This repository presents a collection of research notes, implementation concepts, and technical resources related to modern embedded systems.
 
-The primary objective is to develop efficient, low-power, and real-time embedded AI solutions that integrate sensing, perception, communication, and decision-making capabilities.
+The primary goal is to investigate how artificial intelligence algorithms can be efficiently deployed on embedded platforms while satisfying real-time constraints and limited computational resources.
 
-Current research topics include:
-
-- Embedded Artificial Intelligence
-- Edge AI
-- Internet of Things (IoT)
-- Smart Sensors
-- Embedded Computer Vision
-- Real-Time Systems
-- AI Accelerators
-- Embedded Linux
-- Microcontrollers
-- Robotics
-- Autonomous Systems
-- Educational Embedded Platforms
+The repository combines embedded hardware, intelligent sensing, communication technologies, and edge computing to support the development of next-generation autonomous and smart devices.
 
 ---
 
 ## Research Areas
 
-### Edge AI
+The current research focuses on four major areas:
 
-Deploying deep learning models on resource-constrained hardware while maintaining real-time performance through optimization techniques such as:
+- **Edge AI**
+  - Deep Learning on Embedded Devices
+  - TensorRT Optimization
+  - ONNX Runtime
+  - TinyML
+  - Embedded Computer Vision
 
-- Model compression
-- Quantization
-- TensorRT optimization
-- ONNX deployment
-- Pruning
-- Hardware-aware neural networks
+- **Smart IoT**
+  - Intelligent IoT Devices
+  - Sensor Networks
+  - Wireless Communication
+  - Embedded AI Applications
+  - Educational IoT Platforms
 
----
+- **Real-Time Systems**
+  - RTOS
+  - Embedded Linux
+  - Low-Latency Computing
+  - Multithreaded Systems
+  - Hardware–Software Co-design
 
-### Smart IoT Systems
-
-Design and development of intelligent connected devices capable of sensing, processing, and communication.
-
-Topics include:
-
-- Wireless sensor networks
-- MQTT
-- LoRa
-- Wi-Fi
-- BLE
-- Cloud integration
-- TinyML
-- Intelligent sensor fusion
-
----
-
-### Real-Time Embedded Systems
-
-Research on deterministic and low-latency embedded software for robotics and intelligent devices.
-
-Major topics include:
-
-- Real-Time Operating Systems (RTOS)
-- Scheduling algorithms
-- Interrupt management
-- Multithreading
-- Embedded Linux
-- Hardware acceleration
-- Low-latency processing
-
----
-
-### Intelligent Educational Modules
-
-Development of AI-supported educational hardware for STEM education and digital learning.
-
-Example projects:
-
-- Smart educational toys
-- AI-assisted laboratory modules
-- Robotics kits
-- Computer vision experiments
-- IoT education platforms
+- **Educational Embedded Technologies**
+  - Smart Learning Modules
+  - AI-based Educational Hardware
+  - Robotics Education
+  - STEM Platforms
 
 ---
 
@@ -95,47 +53,80 @@ Example projects:
 Embedded-Systems
 │
 ├── README.md
-│
-├── docs
-│   ├── edge-ai.md
-│   ├── smart-iot.md
-│   ├── real-time-systems.md
-│   ├── embedded-linux.md
-│   ├── microcontrollers.md
-│   ├── tinyml.md
-│   ├── computer-vision.md
-│   ├── hardware-platforms.md
-│   └── educational-platforms.md
-│
-├── examples
-│
-├── projects
-│
-├── datasets
-│
-└── resources
+├── edge-ai.md
+├── smart-iot.md
+└── real-time-systems.md
 ```
+
+---
+
+## Documentation
+
+### 📘 Edge AI
+
+Artificial intelligence on resource-constrained embedded devices.
+
+Topics include:
+
+- Embedded Deep Learning
+- TensorRT
+- ONNX
+- TinyML
+- Model Optimization
+- Embedded Computer Vision
+- AI Accelerators
+
+---
+
+### 📗 Smart IoT
+
+Design and implementation of intelligent connected devices.
+
+Topics include:
+
+- IoT Architecture
+- Smart Sensors
+- MQTT
+- LoRa
+- BLE
+- Wi-Fi
+- Edge Computing
+- Educational IoT Systems
+
+---
+
+### 📙 Real-Time Systems
+
+Development of deterministic and high-performance embedded software.
+
+Topics include:
+
+- RTOS
+- Embedded Linux
+- STM32
+- ESP32
+- Raspberry Pi
+- NVIDIA Jetson
+- Scheduling
+- Interrupt Handling
+- Parallel Computing
 
 ---
 
 ## Hardware Platforms
 
-This repository primarily focuses on:
+Typical development platforms include:
 
-- NVIDIA Jetson Series
+- NVIDIA Jetson Orin
 - Raspberry Pi
-- Arduino
 - ESP32
 - STM32
-- NVIDIA Orin Nano
-- NVIDIA Orin NX
+- Arduino
 - Coral TPU
-- Intel Neural Compute Stick
-- RK3588
 
 ---
 
-## Software Stack
+## Software Ecosystem
 
 Programming Languages
 
@@ -143,81 +134,43 @@ Programming Languages
 - C++
 - Python
 
-Embedded Software
+Frameworks
 
-- FreeRTOS
-- Zephyr
-- Embedded Linux
-- Ubuntu
-- Yocto
-
-AI Frameworks
-
+- OpenCV
 - PyTorch
 - TensorFlow Lite
 - ONNX Runtime
 - TensorRT
-- OpenCV
 
-Communication
+Operating Systems
 
-- UART
-- SPI
-- I2C
-- CAN
-- MQTT
-- BLE
-- TCP/IP
+- Embedded Linux
+- Ubuntu
+- FreeRTOS
+- Zephyr
 
 ---
 
-## Research Goals
+## Research Applications
 
-The long-term objectives include:
+The presented methods can be applied to:
 
-- High-performance Edge AI
-- Real-time perception systems
-- Embedded computer vision
-- Intelligent IoT platforms
-- Low-power AI deployment
-- AI-enabled robotics
-- Educational embedded technologies
+- Edge AI
+- Autonomous Robots
+- UAV Systems
+- Smart Cameras
+- Intelligent IoT Devices
+- Educational Technologies
+- Industrial Automation
 
 ---
 
-## Future Topics
+## Future Development
 
-Planned documentation includes:
-
-- TinyML
-- Edge AI optimization
-- TensorRT tutorials
-- Embedded Computer Vision
-- Embedded Deep Learning
-- CUDA on Embedded Devices
-- AI Accelerators
-- Multi-camera embedded systems
-- AI for Robotics
-- Smart Classroom Technologies
+This repository will continue to expand with new research notes, implementation examples, benchmark studies, and practical embedded AI applications.
 
 ---
 
 ## License
 
 This repository is intended for academic research and educational purposes.
-
----
-
-## Author
-
-**Dr. Emrah Şimşek**
-
-Research Interests
-
-- Embedded Systems
-- Edge AI
-- Computer Vision
-- IoT
-- Real-Time AI
-- Robotics
-- Autonomous Systems
